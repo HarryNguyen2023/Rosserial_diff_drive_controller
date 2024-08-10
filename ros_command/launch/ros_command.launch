@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="ros_command" type="cmd_vel_node" name="cmd_vel_node" output="screen"/>
+    <node pkg="ros_command" type="diff_drive_node" name="diff_drive_node" output="screen"/>
+</launch>
